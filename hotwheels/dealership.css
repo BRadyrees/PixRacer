@@ -1,0 +1,59 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Creates 3 columns each with equal width */
+    gap: 10px; /* Adjust the gap between grid items */
+    margin-top: 20px;
+}
+
+
+/* Media query for smaller screens */
+@media (min-width: 1000px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr); /* Creates 3 columns each with equal width */
+    }
+}
+  
+.grid-item {
+    padding: 5px;
+    text-align: center;
+    background-color: hsl(0, 0%, 31%);
+    border: 5px solid #000000;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    font-family: "Pixelify Sans", sans-serif;
+    width: 115%
+    
+}
+
+.grid-item:hover {  
+    background-color: rgba(108, 108, 108, 0.7);}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #545454; /* Button background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Pixelify Sans", sans-serif;
+
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  

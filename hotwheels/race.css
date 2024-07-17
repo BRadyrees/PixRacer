@@ -1,0 +1,30 @@
+body {
+    background-image: url('bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #545454; /* Button background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Pixelify Sans", sans-serif;
+
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
